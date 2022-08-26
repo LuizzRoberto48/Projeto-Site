@@ -1,0 +1,255 @@
+@font-face {
+  font-family: 'PlayfairDisplay';
+  src: url(Fontes/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'AvenirLight';
+  src: url(Fontes/AvenirLight.ttf);
+}
+
+body {
+  font-family: 'AvenirLight';
+  color: white;
+  min-height: 100vh;
+  background-color: #121111;
+  margin: 0px;
+}
+
+header {
+  padding: 0px 250px;
+}
+
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+
+}
+
+h1 {
+  font-size: 30px;
+  color: white;
+}
+
+h2 {
+  font-size: 30px;
+
+}
+
+form {
+  border: 5px solid #222121;
+  background-color: #121111;
+  font-size: 100%;
+  padding: 20px;
+  margin: 0px auto;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  color: #c4a878;
+}
+
+footer {
+  position: sticky;
+  top: 100%;
+  background-color: #222121;
+  text-align: center;
+  padding: 30px;
+  margin: 0px;
+  font-size: 15px;
+}
+
+.main-nav {
+  font-family: 'AvenirLight';
+  font-size: 20px;
+}
+
+.main-nav a {
+  margin: 1em 0 .5em;
+  text-align: center;
+  display: inline;
+  display: inline-block;
+  padding: .5em .5em;
+}
+
+.contrast {
+  font-family: "PlayfairDisplay";
+  font-size: 40px;
+  color: #c4a878;
+}
+
+.contrast-right {
+  padding: 10px 400px;
+  text-align: right;
+  font-family: "PlayfairDisplay";
+  font-size: 40px;
+  color: #c4a878;
+}
+
+.destaque {
+  font-family: "PlayfairDisplay";
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.destaque-space {
+  margin-right: 80px;
+  font-family: "PlayfairDisplay";
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.destaque-left {
+  padding: 10px 400px;
+  font-family: "PlayfairDisplay";
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+}
+
+.home-content {
+  padding: 348px 70px;
+  background-image: url(../Imagens/bar.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.location-content {
+  padding: 340px 70px;
+  background-image: url(../Imagens/location.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.menu-content {
+  padding: 340px 70px;
+  background-image: url(../Imagens/Bebidas.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/*CATÁLOGO*/
+
+.catalogo-1 {
+  padding: 80px 60px;
+  color: #c4a878
+}
+
+.catalogo-2 {
+  padding: 80px 60px;
+  border-top: #222121 10px solid;
+  color: #c4a878
+}
+
+/*CATÁLOGO*/
+
+/*INDEX*/
+
+.index-1 {
+  padding: 80px 60px;
+}
+
+.index-1 .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.index-2 {
+  padding: 80px 60px;
+  border-top: #222121 10px solid;
+  text-align: center;
+}
+
+.presentation {
+  font-family: "PlayfairDisplay";
+  font-size: 45px;
+  color: #c4a878;
+  margin: 0px;
+}
+
+/*INDEX*/
+
+/*CONTATO*/
+
+.contato-1 {
+  border-top: #222121 10px solid;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.contato-1 .wrapper {
+  padding: 150px 370px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*CONTATO*/
+
+/*LOCALIZAÇÃO*/
+
+.localizacao-1 {
+  padding: 20px 60px;
+  text-align: center;
+}
+
+/*LOCALIZAÇÃO*/
+
+/*CATÁLOGO*/
+
+.box-5 {
+  border-top: #222121 10px solid;
+  border-bottom: #222121 10px solid;
+  margin: 160px 110px;
+}
+
+.box-5 .wrapper {
+  padding: 15px 37px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-7 {
+  margin-left: 600px;
+}
+
+.produtos {
+  font-family: 'PlayfairDisplay';
+  font-size: 35px;
+}
+
+.produtos-pequeno {
+  font-family: 'PlayfairDisplay';
+  font-size: 25px;
+}
+
+.description {
+  font-size: 17px;
+
+}
+
+/*CATÁLOGO*/
